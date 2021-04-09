@@ -10,12 +10,26 @@
 <body>
     <div class="nav-bar">
         <div class="logo">Snapshot</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <nav>
+            <button class="menu-icon js-nav-open">
+                <svg width="26px" height="26px">
+                    <title>Open Navigation</title>
+                    <use xlink:href="#menu-icon"></use>
+                </svg>
+            </button>
+            <button class="menu-icon-close js-nav-close" hidden>
+                <svg width="26px" height="26px">
+                    <title>Close Navigation</title>
+                    <use xlink:href="#menu-close"></use>
+                </svg>
+            </button>
+            <ul class="nav-links js-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 
     <!-- Hero section -->
@@ -104,4 +118,9 @@
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
 </body>
+<script src="script.js"></script>
+<svg width="0" height="0" style="display: none" xmlns="http://www.w3.org/2000/">
+    <symbol id="menu-icon" viewBox="24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2"/><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z"/></symbol>
+    <symbol id="menu-close" viewBox="24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"/></symbol>
+</svg>  
 </html>
