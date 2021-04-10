@@ -113,9 +113,9 @@ div.hero-background {
 div.background {
     background: #fff;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-    padding: 15px 40px;
+    padding: 10px 40px;
     width: 550px;
-    height: 220px;
+    height: 350px;
     position: relative;
 }
 
@@ -197,7 +197,8 @@ div.background p {
     height: 140px;
     border-radius: 50%;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
-}*/
+
+} */
 
 div.background::after {
     content: "";
